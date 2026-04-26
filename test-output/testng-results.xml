@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-21T18:32:27 EET" name="Default suite" finished-at="2026-04-21T18:32:36 EET" duration-ms="8686">
+  <suite started-at="2026-04-26T22:18:29 EET" name="Default suite" finished-at="2026-04-26T22:18:42 EET" duration-ms="13351">
     <groups>
     </groups>
-    <test started-at="2026-04-21T18:32:27 EET" name="Default test" finished-at="2026-04-21T18:32:36 EET" duration-ms="8686">
-      <class name="myfirsteproject">
-        <test-method is-config="true" signature="mysetup()[pri:0, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:27 EET" name="mysetup" finished-at="2026-04-21T18:32:35 EET" duration-ms="7679" status="PASS">
+    <test started-at="2026-04-26T22:18:29 EET" name="Default test" finished-at="2026-04-26T22:18:42 EET" duration-ms="13351">
+      <class name="secondtest">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:secondtest@2002348]" started-at="2026-04-26T22:18:29 EET" name="mysetup" finished-at="2026-04-26T22:18:40 EET" duration-ms="11849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mysetup -->
-        <test-method signature="mytest()[pri:1, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:35 EET" name="mytest" finished-at="2026-04-21T18:32:35 EET" duration-ms="255" status="PASS">
+        <test-method signature="autocompleteInputfield()[pri:1, instance:secondtest@2002348]" started-at="2026-04-26T22:18:40 EET" name="autocompleteInputfield" finished-at="2026-04-26T22:18:42 EET" duration-ms="1161" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- mytest -->
-        <test-method signature="addallitem()[pri:6, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:35 EET" name="addallitem" finished-at="2026-04-21T18:32:35 EET" duration-ms="334" status="PASS">
+        </test-method> <!-- autocompleteInputfield -->
+        <test-method signature="Dropdown()[pri:2, instance:secondtest@2002348]" started-at="2026-04-26T22:18:42 EET" name="Dropdown" finished-at="2026-04-26T22:18:42 EET" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addallitem -->
-        <test-method signature="removeallitems()[pri:7, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:35 EET" name="removeallitems" finished-at="2026-04-21T18:32:36 EET" duration-ms="278" status="PASS">
+        </test-method> <!-- Dropdown -->
+        <test-method signature="checkbox()[pri:3, instance:secondtest@2002348]" started-at="2026-04-26T22:18:42 EET" name="checkbox" finished-at="2026-04-26T22:18:42 EET" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeallitems -->
-        <test-method signature="printlastname()[pri:10, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:36 EET" name="printlastname" finished-at="2026-04-21T18:32:36 EET" duration-ms="99" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printlastname -->
-        <test-method is-config="true" signature="myaftertest()[pri:0, instance:myfirsteproject@47f4e407]" started-at="2026-04-21T18:32:36 EET" name="myaftertest" finished-at="2026-04-21T18:32:36 EET" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- myaftertest -->
-      </class> <!-- myfirsteproject -->
+        </test-method> <!-- checkbox -->
+      </class> <!-- secondtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
