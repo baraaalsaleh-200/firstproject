@@ -52,6 +52,8 @@ public class secondtest {
 		List<WebElement> allcheckboxs = Divcheckbox.findElements(By.tagName("input"));
 		//int randomindex = Rand.nextInt(allcheckboxs.size());
 		//allcheckboxs.get(randomindex).click();
+		
+		//*for select all chekboxs*
 		for(int i=0 ; i< allcheckboxs.size() ; i++ ) {
 			
 			allcheckboxs.get(i).click();
